@@ -1,3 +1,2 @@
 # prueba
-lionel scardino
-coderhouse tp
+Trabajo Práctico N2 CoderHouse - Lionel Scardino
