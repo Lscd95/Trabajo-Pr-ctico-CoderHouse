@@ -1,83 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-
-h1 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: brown;
-    font-style: italic;
-    text-align: center;
-}
-
-footer {
-    font-size: 14px;
-    padding: 50px;
-}
-
-header{
-    background-color: rgb(150, 150, 224);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
-}
-
-main {
-    background-color: beige;
-    border: solid rgb(190, 139, 139);
-    padding: 300px;
-    padding-top: 23px;
-    
-
-}
-
-footer{
-    background-color: rgb(142, 118, 165);
-}
-
-
-.imagen{
-    display: flex;
-    justify-content: center;
-
-}
-
-ul{
-    display: flex;
-   
-    list-style: none;
-    justify-content: center;
-}
-
-
-
-.formulario{
-
-display:flex;
-justify-content:center;
-flex-direction: column;
-}
-
-a{
-    text-decoration: none;
-    padding-left: 8px;
-}
-
-
-
-    
-.input{
-    width: 300px;
-    height: 140px;
-    font-size: 16px;
-    padding: 10px;       
-      
-}
-
-
 
 .containerde{
     display: grid;
@@ -146,14 +66,7 @@ a{
     background-color: brown;
 }
 
-.imaa{
-    width: 25%;
-    display: flex;
-    margin-bottom: 5px;
-    margin-left: 98px;
-    padding: 5px;
-    align-items: center;
-}
+
 
 .span{
     font-size: small;
@@ -162,13 +75,3 @@ a{
     text-transform: capitalize;
     margin-left: 10px;
 }
-
-header ul li a:hover{
-    color: rgb(222, 222, 222);
-    font-size: 3rem;
-    transition: 2s;
-
-}
-
-
-    
