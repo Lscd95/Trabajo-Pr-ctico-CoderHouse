@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Header*/
 header {
   background-color: rgb(150, 150, 224);
@@ -74,8 +75,9 @@ footer {
 footer a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: aliceblue;
+  color: #28455e;
   text-decoration: none;
+  text-align: center;
 }
 
 .containerde {
@@ -157,6 +159,25 @@ footer a {
   height: 140px;
   font-size: 16px;
   padding: 10px;
+}
+
+@media screen and (min-widht: 320px) and (max-widht: 1024px) {
+  header nav ul li a {
+    font-size: 10px;
+  }
+  footer {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+    align-items: center;
+  }
+  .imagen {
+    width: 20%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

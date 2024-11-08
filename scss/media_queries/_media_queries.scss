@@ -1,0 +1,33 @@
+@media screen and (min-widht: 320px) and (max-widht: 1024px){
+    header{
+        nav{
+            ul{
+                li{
+                    a{
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    footer{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Cambia a columna en pantallas pequeñas */
+        align-items: center
+    }
+
+    .imagen{
+        width: 20%;
+    }
+
+}
