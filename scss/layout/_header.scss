@@ -1,3 +1,7 @@
+$color-aqua: aqua;
+
+
+
 /* Header*/
 header{
     background-color: rgb(150, 150, 224);
@@ -13,7 +17,7 @@ header{
         ul{
             a{
                 &:hover{
-                    color: aqua ;
+                    color: $color-aqua;
                 }
         
             }
